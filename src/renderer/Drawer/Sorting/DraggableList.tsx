@@ -3,7 +3,7 @@ import DraggableListItem from './DraggableListItem';
 import { DragDropContext, Droppable, DropResult } from 'react-beautiful-dnd';
 import './DraggableList.scss';
 
-const { store } = window.api;
+// const { store } = window.api;
 
 type DraggableListProps = {
   settings: Settings;

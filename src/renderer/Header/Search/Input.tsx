@@ -10,7 +10,7 @@ import { WithTranslation, withTranslation } from 'react-i18next';
 import { i18n } from '../../Settings/LanguageSelector';
 import './Input.scss';
 
-const { ipcRenderer, store } = window.api;
+// const { ipcRenderer, store } = window.api;
 
 interface InputComponentProps extends WithTranslation {
   headers: HeadersObject | null;

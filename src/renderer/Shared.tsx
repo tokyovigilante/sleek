@@ -12,7 +12,7 @@ dayjs.extend(calendar);
 dayjs.extend(weekday);
 dayjs.extend(updateLocale);
 
-const { store, ipcRenderer } = window.api;
+// const { store, ipcRenderer } = window.api;
 
 export const handleFilterSelect = (key: string, name: string, values: string | string[] | null, filters: Filters | null, exclude: boolean) => {
   try {

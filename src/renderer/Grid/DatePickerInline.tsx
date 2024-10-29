@@ -11,7 +11,7 @@ import dayjs from 'dayjs';
 import updateLocale from 'dayjs/plugin/updateLocale';
 dayjs.extend(updateLocale);
 
-const { ipcRenderer } = window.api;
+// const { ipcRenderer } = window.api;
 
 interface Props {
   type: string;

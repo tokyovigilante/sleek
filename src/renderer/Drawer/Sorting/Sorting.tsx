@@ -8,7 +8,7 @@ import DraggableList from './DraggableList';
 import { i18n } from '../../Settings/LanguageSelector';
 import './Sorting.scss';
 
-const { store } = window.api;
+// const { store } = window.api;
 
 interface Props extends WithTranslation {
 	settings: Settings;

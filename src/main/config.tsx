@@ -1,4 +1,4 @@
-import Store from 'electron-store';
+// import Store from 'electron-store';
 import path from 'path';
 import { app, nativeTheme } from 'electron';
 import fs from 'fs';

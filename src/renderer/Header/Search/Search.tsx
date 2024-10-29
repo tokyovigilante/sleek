@@ -5,7 +5,7 @@ import InputComponent from './Input';
 import { withTranslation, WithTranslation } from 'react-i18next';
 import './Search.scss';
 
-const { ipcRenderer, store } = window.api;
+// const { ipcRenderer, store } = window.api;
 
 const handleAddNewFilter = (
   event: React.SyntheticEvent,

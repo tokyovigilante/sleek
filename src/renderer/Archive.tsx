@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { withTranslation, WithTranslation } from 'react-i18next';
 import { i18n } from './Settings/LanguageSelector';
 
-const { ipcRenderer} = window.api;
+// const { ipcRenderer} = window.api;
 
 interface Props extends WithTranslation {
   triggerArchiving: boolean;

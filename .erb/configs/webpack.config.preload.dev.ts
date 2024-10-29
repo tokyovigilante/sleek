@@ -17,8 +17,10 @@ const configuration: webpack.Configuration = {
 
   mode: 'development',
 
-  target: 'electron-preload',
+  // target: 'electron-preload',
 
+  target: 'web',
+   
   entry: path.join(webpackPaths.srcMainPath, 'preload.js'),
 
   output: {

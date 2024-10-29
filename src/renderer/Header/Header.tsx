@@ -7,7 +7,7 @@ interface Props {
   searchFieldRef: RefObject<HTMLInputElement>;
 }
 
-const { store } = window.api;
+// const { store } = window.api;
 
 const HeaderComponent: React.FC<Props> = memo(({ 
   settings,

@@ -76,10 +76,14 @@
     "@mui/material": "^5.15.12",
     "@mui/system": "^5.15.12",
     "@mui/x-date-pickers": "^6.19.3",
+    "assert": "^2.1.0",
+    "crypto-browserify": "^3.12.1",
     "dayjs": "^1.11.9",
     "electron-store": "^8.2.0",
     "i18next": "^23.10.1",
     "jstodotxt": "^1.0.0-alpha.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-autosuggest": "^10.1.0",
     "react-beautiful-dnd": "^13.1.1",
@@ -88,7 +92,10 @@
     "react-markdown": "^9.0.1",
     "react-string-replace": "^1.1.1",
     "remark-gfm": "^4.0.0",
-    "sugar": "^2.0.6"
+    "stream-browserify": "^3.0.0",
+    "sugar": "^2.0.6",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
   },
   "devDependencies": {
     "@electron/notarize": "^2.2.0",

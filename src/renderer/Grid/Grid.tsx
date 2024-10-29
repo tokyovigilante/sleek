@@ -5,7 +5,7 @@ import Group from './Group';
 import { handleFilterSelect } from '../Shared';
 import './Grid.scss';
 
-const { ipcRenderer } = window.api;
+// const { ipcRenderer } = window.api;
 
 interface GridComponentProps {
   todoData: TodoData | null;

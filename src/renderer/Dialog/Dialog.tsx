@@ -14,7 +14,7 @@ import RecurrencePicker from './RecurrencePicker';
 import { i18n } from '../Settings/LanguageSelector';
 import './Dialog.scss';
 
-const { ipcRenderer} = window.api;
+// const { ipcRenderer} = window.api;
 
 interface Props extends WithTranslation {
   dialogOpen: boolean;

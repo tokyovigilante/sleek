@@ -15,7 +15,7 @@ interface SplashScreenProps extends WithTranslation {
   t: typeof i18n.t;
 }
 
-const { ipcRenderer, store } = window.api;
+// const { ipcRenderer, store } = window.api;
 
 const SplashScreen: FC<SplashScreenProps> = memo(({
   setSearchString,

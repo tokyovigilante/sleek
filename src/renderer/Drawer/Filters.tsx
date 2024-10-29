@@ -9,7 +9,7 @@ import { i18n } from '../Settings/LanguageSelector';
 import { handleLinkClick } from '../Shared';
 import './Filters.scss';
 
-const { store} = window.api;
+// const { store} = window.api;
 
 const visibleSettings: VisibleSettings = {
   showCompleted: {

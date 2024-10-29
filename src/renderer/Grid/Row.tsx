@@ -9,7 +9,7 @@ import RendererComponent from './Renderer';
 import './Row.scss';
 import { i18n } from '../Settings/LanguageSelector';
 
-const { ipcRenderer } = window.api;
+// const { ipcRenderer } = window.api;
 
 interface Props extends WithTranslation {
   todoObject: TodoObject;

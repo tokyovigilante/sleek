@@ -15,7 +15,7 @@ import LanguageSelector, { i18n } from './LanguageSelector';
 import { handleLinkClick } from '../Shared';
 import './Settings.scss';
 
-const { store } = window.api;
+// const { store } = window.api;
 
 const visibleSettings: VisibleSettings = {
   appendCreationDate: {

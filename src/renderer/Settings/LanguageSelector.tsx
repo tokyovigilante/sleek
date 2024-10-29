@@ -33,7 +33,7 @@ import 'dayjs/locale/cs';
 import 'dayjs/locale/pl';
 import 'dayjs/locale/ru';
 
-const { store } = window.api;
+// const { store } = window.api;
 
 const options: i18n.InitOptions = {
 	resources: {

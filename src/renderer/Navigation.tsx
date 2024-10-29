@@ -9,7 +9,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Button from '@mui/material/Button';
 import './Navigation.scss';
 
-const { ipcRenderer, store } = window.api;
+// const { ipcRenderer, store } = window.api;
 
 interface Props {
   setIsSettingsOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -41,7 +41,7 @@ const NavigationComponent: React.FC<Props> = memo(({
       }
     };
 
-    ipcRenderer.on('isDialogOpen', handleOpen);
+    // ipcRenderer.on('isDialogOpen', handleOpen);
     document.addEventListener('keydown', handleKeyDown)
     return () => {
       ipcRenderer.off('isDialogOpen', handleOpen);

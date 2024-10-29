@@ -12,7 +12,7 @@ import { withTranslation, WithTranslation } from 'react-i18next';
 import { i18n } from '../Settings/LanguageSelector';
 import './Attributes.scss';
 
-const { store } = window.api;
+// const { store } = window.api;
 
 interface DrawerAttributesProps extends WithTranslation {
   settings: Settings;

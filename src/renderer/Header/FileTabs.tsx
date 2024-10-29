@@ -6,7 +6,7 @@ import { withTranslation, WithTranslation } from 'react-i18next';
 import './FileTabs.scss';
 import { i18n } from '../Settings/LanguageSelector';
 
-const { ipcRenderer } = window.api;
+// const { ipcRenderer } = window.api;
 
 interface FileTabsProps extends WithTranslation {
   settings: Settings;

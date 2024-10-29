@@ -1,6 +1,6 @@
 import Sugar from 'sugar';
 import dayjs, { Dayjs } from 'dayjs';
-import { config } from '../config';
+// import { config } from '../config';
 
 function mustNotify(date: Date): boolean {
   const today = dayjs().startOf('day');
